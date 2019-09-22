@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  if /^[aeiou]/ == word.each do
+  match.each do |word|
+   if /^[aeiou]/ == word
     return true
 
 end
